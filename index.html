@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Personal Portfolio Website</title>
+     
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f56451b913.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    
+
+
+
+
+
+
+<div id="header">
+    <div class="container">
+        <nav> 
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#myservices">My Services</a></li>
+                <li><a href="#codingexperience">Coding experience</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Student Front End Developer</p>
+            <h1>Hi, I'm <span>Camilo</span><br> Botero From the United States</h1>
+        </div>
+    </div>
+</div>
+<!----------------------------about---------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_2436.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hello everyone! My name is Camilo Botero a High School student from Brentwood, New York. I am a highly motivated junior front-end developer. Driven and curious to learn more, I'm always open to working with others to create unique projects.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('goals')">Goals</p>
+                </div>
+                <div class="tab-contents tab-dosmt" id="skills">
+                    <ul>
+                        <li><span>Front End Web Development</span><br>Designing Web using HTML5, CSS, and JavaScript.</li>
+                        <li><span>Collaborating</span><br>Knowing how to work with partners and create special projects.</li>
+                        <li><span>Creative</span><br>Being able to think outside the box to make eccentric pieces of work</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021</span><br>At the age of 15 with the desire to learn more about the world of computer science, I started Harvard's free online course Intro to CS50. Taking the course, I got familiar with the fundamentals of programming . </li>
+                        <li><span>2022</span><br>After getting familiar with code. I had dived into Harvard's free online course CS50W. In this course, I explored the fundamental languages and tools of modern web app development. 
+                        </li>
+                        <li><span>2022</span><br>Noticing my school didn't have any type of club dedicated to programming, I pushed for a coding club and ended up being the founding member of Brentwood High School's 2022 Coding Club. </li>
+                        <li><span>2022</span><br>I've now started to build projects for small local companies to develop their websites. </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>High School</span><br>Graduating Class of 2023.</li>
+                        <li><span>High School involvment</span><br>Founded Coding Club at my school. Part of the Robotics and Ace Engineering Club. Along with being a member of Athletes Help Athletes and National Math Honor Society.</li>
+                        <li><span>Early College Student</span><br>Taking College courses as a High School Student.  </li>
+                        <li><span>Varsity Baseball</span><br>Starting/Relief Pitcher for Brentwood Boys Varsity Baseball. </li>
+                        <li><span>College</span><br>I plan to enroll in a 4 year college while majoring in Computer Science. </li>
+                        
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="goals">
+                    <ul>
+                        <li><span>Becoming A Full Stack Software Engineer</span><br>Designing, Testing and implementing the most eccentric softwares for our community</li>
+                        <li><span>Traveling </span><br>To be able to see and experience the rest of the world. Getting the first hand experiences of the collective humamity we live in.</li>
+                        <li><span>Network with the best out there</span><br>To be able to improve my growth in this industry is my main goal. I would love to be able to receive feedback from others and learn from those who are well-experienced. Maybe I can even start building projects with them one day  </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------Services------------->
+<div id="myservices">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                
+                <a href="#"></a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                
+                <a href="#"></a>
+            </div>
+            <div>
+                <h2>Maintenance</h2>
+                
+                <a href="#"></a>
+            </div>
+         </div>
+    </div>
+</div>
+
+<!---------coding experience------------->
+<div id="codingexperience">
+  <div class="container">
+    <h1 class="sub-title">My Coding Experience</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="images/cross 1.jpg" >
+        <div class="layer">
+            <h3>Harvards CS50 and CS50W</h3>
+            <p>At the age of 15 I desperately wanted to learn how to code. I saw how innovative the skill of knowing how to program was. Not knowing where or how to start I found out about Harvards Free online courses of computer science.</p>
+            <a href="https://cs50.harvard.edu/x/2022/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+     <div class="work">
+        <img src="images/images321.jpg" >
+        <div class="layer">
+            <h3>Freecodecamp</h3>
+            <p>Freecodecamp.org is one of the greatest resources I used when first learning how to program. I was never able to access other camps, but freecodecamp.org was always a go-to website. They offer many lectures for free which have helped me get to where I am .</p>
+            <a href="https://www.freecodecamp.org/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div> 
+    <div class="work">
+        <img src="images/cross 3.jpg" >
+        <div class="layer">
+            <h3>Discord</h3>
+            <p>Wanting to surround myself with others more like myself I figured I should dive into discord. Discord is the place where I would end up interacting with experienced developers. Putting myself out there in various discord servers wasn't easy but it was worth it to gain more knowledge.</p>
+            <a href="https://frontenddevelopers.org/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+</div>
+             
+  </div>
+</div>
+<!----------Contact me---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> camandres1122@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 631-372-6079</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/CBWEBDEV"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.instagram.com/boterodev/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> &COPY; 2022, Built and Designed by
+            Camilo Botero
+        </p>
+    </div>
+    
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("tab-dosmt");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("tab-dosmt");
+}
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-300px";
+}
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx0OI2yVZ0_nN9LDvYoJ-tHnYucOY4_whCy2-ENCS55c_aaORPqmETLvi-qOhBd55nKDQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+            })
+        })
+        .catch(error => console.error('Error!', error.message))
+    
+  </script>
+
+</body>
+</html>
